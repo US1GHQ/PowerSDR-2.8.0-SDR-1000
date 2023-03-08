@@ -1,0 +1,1 @@
+1Hz,10Hz,50Hz,100Hz,250Hz,500Hz,1kHz,5kHz,9kHz,10kHz,100kHz,250kHz,500kHz,1mHz,10mHz

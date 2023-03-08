@@ -1,0 +1,113 @@
+//=================================================================
+// splash.cs
+//=================================================================
+// PowerSDR is a C# implementation of a Software Defined Radio.
+// Copyright (C) 2003-2013  FlexRadio Systems
+//
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License
+// as published by the Free Software Foundation; either version 2
+// of the License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program; if not, write to the Free Software
+// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+//
+// You may contact us via email at: gpl@flexradio.com.
+// Paper mail may be sent to: 
+//    FlexRadio Systems
+//    4616 W. Howard Lane  Suite 1-150
+//    Austin, TX 78728
+//    USA
+//=================================================================
+
+
+namespace PowerSDR
+{
+    public partial class Splash : System.Windows.Forms.Form
+    {
+     
+
+        #region Windows Form Designer generated code
+
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
+            this.pnlStatus = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblTimeRemaining = new System.Windows.Forms.LabelTS();
+            this.lblStatus = new System.Windows.Forms.LabelTS();
+            this.SuspendLayout();
+            // 
+            // pnlStatus
+            // 
+            this.pnlStatus.BackColor = System.Drawing.Color.Transparent;
+            this.pnlStatus.Location = new System.Drawing.Point(50, 247);
+            this.pnlStatus.Name = "pnlStatus";
+            this.pnlStatus.Size = new System.Drawing.Size(475, 24);
+            this.pnlStatus.TabIndex = 2;
+            this.pnlStatus.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlStatus_Paint);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lblTimeRemaining
+            // 
+            this.lblTimeRemaining.BackColor = System.Drawing.Color.Transparent;
+            this.lblTimeRemaining.ForeColor = System.Drawing.Color.White;
+            this.lblTimeRemaining.Image = null;
+            this.lblTimeRemaining.Location = new System.Drawing.Point(296, 289);
+            this.lblTimeRemaining.Name = "lblTimeRemaining";
+            this.lblTimeRemaining.Size = new System.Drawing.Size(100, 16);
+            this.lblTimeRemaining.TabIndex = 1;
+            this.lblTimeRemaining.Text = "Time";
+            // 
+            // lblStatus
+            // 
+            this.lblStatus.BackColor = System.Drawing.Color.Transparent;
+            this.lblStatus.ForeColor = System.Drawing.Color.White;
+            this.lblStatus.Image = null;
+            this.lblStatus.Location = new System.Drawing.Point(0, 287);
+            this.lblStatus.Name = "lblStatus";
+            this.lblStatus.Size = new System.Drawing.Size(400, 16);
+            this.lblStatus.TabIndex = 0;
+            this.lblStatus.Text = "Status";
+            this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Splash
+            // 
+            this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(600, 384);
+            this.Controls.Add(this.pnlStatus);
+            this.Controls.Add(this.lblTimeRemaining);
+            this.Controls.Add(this.lblStatus);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "Splash";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Splash";
+            this.ResumeLayout(false);
+
+        }
+        #endregion
+
+        private System.Windows.Forms.LabelTS lblTimeRemaining;
+        private System.Windows.Forms.LabelTS lblStatus;
+        private System.Windows.Forms.Panel pnlStatus;
+        private System.Windows.Forms.Timer timer1;
+        private System.ComponentModel.IContainer components = null;
+
+    } // class Splash 
+
+    
+}

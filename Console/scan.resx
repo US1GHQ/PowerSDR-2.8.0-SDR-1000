@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>MEMORY Scan, SWL Scan or BandStack Scan or Custom list:  Records Signal Strength -dBm
+Select Memory GROUP, Scan Speed, and Squelch Break Pause options.
+
+Memory scan only: Left click on Memory = send to VFOA, Wheel click on Memory = send to VFOB, 
+Right Click = Toggle memory Channel Scan (ignore) OFF/ON
+
+LOW-HIGH SCAN: Scans from Low to High Frequency within same Band.
+Select Step Size and Speed and Squelch Break option.
+Remember to set SQUELCH LEVEL correctly. 
+
+SWR transmits 10 watts and records up to 5 runs per band, for up to 3 antennas. 
+Right click on SWR button to open up recording folder.</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <metadata name="openFileDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
+  </metadata>
+  <data name="chkBoxSQLBRK.ToolTip" xml:space="preserve">
+    <value>Pause, when Squelch is broken, for the "Pause Length" time, then continue scanning, no matter if the channel remains busy.
+
+Click the Yellow "Pause Scan" button to jump past an occupied channel and continue scanning.</value>
+  </data>
+  <data name="button2.ToolTip" xml:space="preserve">
+    <value>Hit F1 for More HELP
+
+Click here to start TUNE (at 10 watts) from Low Freq to High Freq.
+
+This will create and store a SWR plot (per ANT and BAND)
+
+Click to Start, Click again to Stop, Click once more to resume
+
+Edit Low or High Edge Frequency value to Reset Scanner to Start Over again
+
+Records SWR to SWR_PLOTS Folder (right click on SWR SCAN button to open)</value>
+  </data>
+  <data name="btnGroupMemory.ToolTip" xml:space="preserve">
+    <value>Type or Select a MEMORY GROUP (window to the right of this button)
+Click to Toggle scanning ON/OFF
+
+Click the "Pause Scan" button when Yellow to jump past an occupied channel
+
+In the main window (above):
+   Left Click to manually select for VFOA 
+   Wheel Click to manually select for VFOB
+   Right Click to toggle Memory scan Channel Bypass ON/OFF</value>
+  </data>
+  <data name="btnCustomList.ToolTip" xml:space="preserve">
+    <value>Click to open Folder.  This is where you put your text file (any name you want)
+
+Inside the Text File contains multiple Text lines (up to 50):
+
+NAME of Memory, FREQUENCY in MHZ, Mode, Filter
+
+Example:    IARU Beacon,14.200,USB,F3 
+
+Filters can be: F1,F2,F3,F4,F5,F6,F7,F8,F9,F10,VAR1,VAR2
+Modes can be: LSB,USB,DSB,CWL,CWU,FM,AM,DIGU,SPEC,DIGL,SAM,DRM
+</value>
+  </data>
+  <data name="chkBoxSQLBRKWait.ToolTip" xml:space="preserve">
+    <value>Pause and Wait, when Squelch is broken, until channel is clear for at least the "Pause Length" time.
+If the channel continues to remain occupied, the timer keeps resetting and Pause continues until clear.
+
+Click the Yellow "Pause Scan" button to jump past an occupied channel and continue scanning.
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>27</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEACACoCAAAFgAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAA/wkBAP8OAgD/FQMA/xkEAP8fBQD/HBAA/x0WAP8kBQD/MggA/zUIAP8yDQD/OgkA/z0KAP8m
+        EgD/JRoA/zUaAPo+OwD/QQoA/0QLAP9JDAD/TxMA/0gXAP9OFQD/Rx8A/1EeAP9WHwD/QCEA/0gvAP9V
+        IAD/XSkA+kE+APpLPQD6Tj4A/1Y1AP9SOgD6Uz8A/1A/APpWPwD/YSwA/2Y0APpFQgD6SUAA+khFAP9M
+        RwD6WkAA+l1AAP9SSAD/VEsA/1lIAP9cTQD/X1EA+mFBAP9jQQD6ZkIA/2ZAAPppQwD6bUMA/21GAP9h
+        SgD/ZEgA+nFDAPpzRAD/ckQA/3hMAP9gUAD/Z1EA/2VXAP9pVgD/bVYA/2peAP9sXgD/cFYA/35RAP9/
+        VgD/cVoA/3teAP9oYAD4aWcA/25nAPhsaAD/cGAA/3hgAP95ZQD/f2cA/3NrAP91bgD/emkA+nV0AP9/
+        eQD/gVgA/4VbAP+EZQD7iWAA/4hjAP+MYwD/imQA/41mAP+FaAD/j2gA/4psAP+ObQD/kWYA/5VnAP+Y
+        ZwD/kmgA/5ZsAP6ZagD/gXIA/4N3AP+LcwD2gXsA/4J5AP+FewD/hX0A/4p4AP+NeQD/lXAA/5d1AP+a
+        dQD/k38A/59+AP+GgQD/i4cA/5KDAP+XgQD/m4UA/5SIAP+WjQD/mYgA/52JAP+ajAD3kpEA95iRAP+f
+        kAD6mJcA/6WBAP+hhwD/pYoA/6KNAPypiQD8rYoA/6qNAPywjQD/p5UA/6qdAP+vnQD/tpsA+qOhAP+q
+        oAD2r6wA/7CkAP+yqQD/tqgA97qvAP+9qgD/uK4A/72sAP+5swD/uLUA+ru6AP++vAD5w60A+cStAPnF
+        tAD/xrUA+cixAP/JtAD/wroA/8a5AP/CvQD7y74A/8m/APnMvAD/xcEA/8jBAP/NwgD6ycgA/8/KAP/O
+        zQD518cA/9XHAP/VyAD/0swA/9XNAP/ZzgDp1NQA6djUAOnc1wDp29sA/9PRAP/W0AD/2NMA/93QAP/e
+        1QD629oA/9/aAOrh3QD/4NYA/+LbAP7k2gD+4t4A+ubdAOvk4QDr5+cA6+jnAOzs6wDt7e0A/+XiAPrl
+        5QD/6eIA/+rmAP/r6QD+7OoA/+3tAP/w7QDx8fEA9fX1AP/x8AD/9PEA+/T0AP/19AD/+PYA+fn5AP/5
+        +QD//PsA/v7+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD///8A39jYu7q6urq6urq6urq6urq6urq6urq6urq6urrY2NjY34QrERERERErWIegsdHRw5QRERER
+        ERERERERH07a2NiWAQEBByx6sd/f39/dvq6fewEBAQEBAQEBAQEBAU7M2G8BB1Wg2t/f39+uVS8vTU9Z
+        enpVDwECAQIBAgECKrvYhHHU39/f3p9yM3Gu3d/f397Jvq5HAgQEAgQEBAIhutjR39/f359Hg67a39/f
+        37BxMyUyM0dEMzIOBAQEBCW62N/f37Bsf9rf39/an1cyUZWx39/f393RwUQFBQUFJLrY396Df7Lf39/f
+        mURUl9He39/f2pFXOyVEJRwcEAUtu9jJVJnf39/fnURzyd/f39+wg1FEi7Da39/f39quGC262Jqy39/f
+        2nNUrN/f39+wVHKbxt7f39/anX9IPCIJLrvY39/f37A8kN/f39+wc4LU39/f37CCIgkJCQkJCQk8utjf
+        39+XN6zf39/ei4Ky39/f351UGAkMCQkJCQkJCTe72N/JYGLU39/fwWSu39/f3506DAwMDAwMDAwMDAwM
+        NrvYrDqJ3d/f351zxt/f39plFgwMDAwMDBIMEhISEgw6u9ii1N/f39qOidrf39+nGRISEhISEhISEhIS
+        EhISEji72N/f39+5ZJ3f39/fjh0SEhQSFBIUEhQSEhISEhISPbvY39/Gd3fa39/f2o5KSmBgYGBaSkA9
+        KCcaFRQUFBQ9u9jJd3ey3t/f38F5YGBgYGRmYGBgZmBgYFtKPScVFD272K3B39/f39KOZWZmZWZmYGZl
+        ZmZgZWZmYGZmYGBKW8XY39/f39qTd2ZmYGZmYGZmYGZgZmZmZmZmYGZmZmaOxdjawaeIZmZmZmZmZmZm
+        ZmZmZmZmZmZmZmZmZmZmZojM2KJqZWZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmjsXYomZoZmhmaGZo
+        ZmZoZmZoZmhmZmhmZmhmZmhmaGaOxdiiZmZoZmhmZmhmaGZoZmZoZmhmZmhmZmhmaGZmaI7F2KJoaGZo
+        aGhoZmhoZmhoaGZoaGhoZmhoaGhmaGhmj8XYomZoaGZoZmhoZmhoZmhoaGZoZmhoZmhmaGhoZmiPxdii
+        aGZoaGhoZmhoaGhoaGZoaGhoZmhoaGhoaGhoaI7F2KJoaGhoZmhoaGhmaGhoaGhoZmhoaGhoaGZoaGho
+        j8XYomhoZmhoaGhmaGhoZmhoZmhoaGhmaGhoaGhmaGiPy9jKaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGho
+        aGhoaKfY2NnKraKjo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6Ojo6O039jf2NjN2NjY2NjY2NjY2NjY2NjY2NjY
+        2NjY2NjY2NjY2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>

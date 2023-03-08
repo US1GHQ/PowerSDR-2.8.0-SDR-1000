@@ -1,0 +1,1 @@
+C:\Temp\PowerSDR-2.8.0-SDR1000\PowerMate\Release\PowerMate.vcxproj.AssemblyReference.cache
